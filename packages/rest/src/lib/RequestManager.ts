@@ -1,7 +1,6 @@
 import { Blob, Buffer } from 'node:buffer';
 import { EventEmitter } from 'node:events';
 import { setInterval, clearInterval } from 'node:timers';
-import type { URLSearchParams } from 'node:url';
 import { Collection } from '@discordjs/collection';
 import { lazy } from '@discordjs/util';
 import { DiscordSnowflake } from '@sapphire/snowflake';

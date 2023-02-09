@@ -1,5 +1,4 @@
 import { Blob, Buffer } from 'node:buffer';
-import { URLSearchParams } from 'node:url';
 import { types } from 'node:util';
 import type { RESTPatchAPIChannelJSONBody } from 'discord-api-types/v10';
 import { FormData, type Dispatcher, type RequestInit } from 'undici';

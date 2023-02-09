@@ -1,5 +1,4 @@
 import { Blob, Buffer } from 'node:buffer';
-import { URLSearchParams } from 'node:url';
 import { test, expect } from 'vitest';
 import { resolveBody, parseHeader } from '../src/lib/utils/utils.js';
 
