@@ -1,4 +1,3 @@
-import { setTimeout, clearTimeout } from 'node:timers';
 import { setTimeout as sleep } from 'node:timers/promises';
 import { AsyncQueue } from '@sapphire/async-queue';
 import { request, type Dispatcher } from 'undici';
